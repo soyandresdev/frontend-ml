@@ -1,5 +1,5 @@
 import axios from 'axios';
-import createResponse, { createObjectItems, createObjectItem } from '../../helper/index';
+import createResponse, { createObjectItems, createObjectItem } from '../../helpers/index';
 
 export const getItems = async (req, res) => {
   try {

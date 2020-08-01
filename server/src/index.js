@@ -1,23 +1,7 @@
 import 'dotenv/config';
-import { json, urlencoded } from 'body-parser';
-import morgan from 'morgan';
-import cors from 'cors';
-import express from 'express';
-import error from './error';
 
-import itemsRouter from './resources/items/items.router';
+const server = require('./server');
 
-const app = express();
+const PORT = process.env.PORT || 3300;
 
-app.use(cors());
-app.use(json());
-app.use(urlencoded({ extended: true }));
-app.use(morgan('dev'));
-
-app.use('/api/items', itemsRouter);
-
-app.get('*', (_req, res) => res.send(error));
-
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT}!`);
-});
+server.listen(PORT, () => console.log(`Server is live at localhost:${PORT}`));

@@ -1,0 +1,38 @@
+{
+  "author": { "name": "Andres", "lastname": "Hernandez Lozano" },
+  "items": [
+    {
+      "id": "MLA787471689",
+      "title": "Cuero Lanar, Corderito, Alfombra, Cuero De Oveja, Muflón",
+      "price": { "amount": 2149, "decimals": 2149, "currency": "ARS" },
+      "picture": "http://mla-s2-p.mlstatic.com/701878-MLA31486701485_072019-I.jpg",
+      "condition": "new",
+      "free_shipping": false
+    },
+    {
+      "id": "MLA792775329",
+      "title": "Cartel Luminoso Led Letras  Lightbox Mini Tablero Deco",
+      "price": { "amount": 399, "decimals": 399, "currency": "ARS" },
+      "picture": "http://mla-s2-p.mlstatic.com/740912-MLA31356657438_072019-I.jpg",
+      "condition": "new",
+      "free_shipping": false
+    },
+    {
+      "id": "MLA717831612",
+      "title": "Jardin Vertical Artificial Muro Verde Panel 40x60",
+      "price": { "amount": 270, "decimals": 270, "currency": "ARS" },
+      "picture": "http://mla-s1-p.mlstatic.com/761722-MLA40388596316_012020-I.jpg",
+      "condition": "new",
+      "free_shipping": false
+    },
+    {
+      "id": "MLA858849269",
+      "title": "Funda Almohadon 40x40 Cm Deco Con Cierre Diseño Pana Estampa",
+      "price": { "amount": 450, "decimals": 450, "currency": "ARS" },
+      "picture": "http://mla-s2-p.mlstatic.com/991299-MLA42076665543_062020-I.jpg",
+      "condition": "new",
+      "free_shipping": false
+    }
+  ],
+  "categories": ["Hogar, Muebles y Jardín"]
+}

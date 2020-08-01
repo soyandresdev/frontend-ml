@@ -1,0 +1,711 @@
+{
+  "site_id": "MLA",
+  "query": "deco",
+  "paging": { "total": 43347, "offset": 0, "limit": 4, "primary_results": 1000 },
+  "results": [
+    {
+      "id": "MLA787471689",
+      "site_id": "MLA",
+      "title": "Cuero Lanar, Corderito, Alfombra, Cuero De Oveja, Muflón",
+      "seller": {
+        "id": 410760288,
+        "permalink": "http://perfil.mercadolibre.com.ar/LEDERHD",
+        "registration_date": "2019-02-26T21:24:38.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "brand",
+          "user_info_verified",
+          "large_seller",
+          "eshop",
+          "mshops",
+          "credits_profile",
+          "messages_as_seller",
+          "messages_as_buyer"
+        ],
+        "eshop": {
+          "nick_name": "LEDERHD",
+          "eshop_rubro": null,
+          "eshop_id": 427430,
+          "eshop_locations": [],
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/410760288v3474b6.png",
+          "eshop_status_id": 1,
+          "seller": 410760288,
+          "eshop_experience": 0
+        },
+        "seller_reputation": {
+          "transactions": {
+            "total": 973,
+            "canceled": 24,
+            "period": "historic",
+            "ratings": { "negative": 0, "positive": 0.99, "neutral": 0.01 },
+            "completed": 949
+          },
+          "power_seller_status": "platinum",
+          "metrics": {
+            "claims": { "rate": 0.0059, "value": 5, "period": "3 months" },
+            "delayed_handling_time": { "rate": 0.0013, "value": 1, "period": "3 months" },
+            "sales": { "period": "3 months", "completed": 817 },
+            "cancellations": { "rate": 0, "value": 0, "period": "3 months" }
+          },
+          "level_id": "5_green"
+        }
+      },
+      "price": 2149,
+      "currency_id": "ARS",
+      "available_quantity": 50,
+      "sold_quantity": 250,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "stop_time": "2040-05-21T03:09:46.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-787471689-cuero-lanar-corderito-alfombra-cuero-de-oveja-muflon-_JM",
+      "thumbnail": "http://mla-s2-p.mlstatic.com/701878-MLA31486701485_072019-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": { "quantity": 18, "amount": 119.39, "rate": 0, "currency_id": "ARS" },
+      "address": {
+        "state_id": "AR-B",
+        "state_name": "Buenos Aires",
+        "city_id": "TUxBQ0FWRTc5OTQ1",
+        "city_name": "Avellaneda"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": ["fs_removed_by_tagger", "self_service_in"],
+        "logistic_type": "xd_drop_off",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": { "id": "AR", "name": "Argentina" },
+        "state": { "id": "AR-B", "name": "Buenos Aires" },
+        "city": { "id": "TUxBQ0FWRTc5OTQ1", "name": "Avellaneda" },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "value_name": "Leder Home & Deco",
+          "values": [
+            { "struct": null, "source": 4060709329251625, "id": null, "name": "Leder Home & Deco" }
+          ],
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros",
+          "source": 4060709329251625,
+          "id": "BRAND",
+          "name": "Marca",
+          "value_id": null,
+          "value_struct": null
+        },
+        {
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_struct": null,
+          "values": [{ "source": 1572, "id": "2230284", "name": "Nuevo", "struct": null }],
+          "source": 1572,
+          "id": "ITEM_CONDITION",
+          "value_name": "Nuevo",
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros"
+        },
+        {
+          "name": "Modelo",
+          "value_id": null,
+          "value_name": "Punta Natural Blanco",
+          "values": [
+            {
+              "id": null,
+              "name": "Punta Natural Blanco",
+              "struct": null,
+              "source": 3376461333454861
+            }
+          ],
+          "source": 3376461333454861,
+          "id": "MODEL",
+          "value_struct": null,
+          "attribute_group_id": "OTHERS",
+          "attribute_group_name": "Otros"
+        }
+      ],
+      "differential_pricing": { "id": 33665186 },
+      "original_price": 2399,
+      "category_id": "MLA2513",
+      "official_store_id": 1808,
+      "domain_id": "MLA-CARPETS",
+      "catalog_product_id": null,
+      "tags": [
+        "good_quality_thumbnail",
+        "loyalty_discount_eligible",
+        "ahora-12",
+        "brand_verified",
+        "good_quality_picture",
+        "immediate_payment",
+        "shipping_guaranteed"
+      ]
+    },
+    {
+      "id": "MLA792775329",
+      "site_id": "MLA",
+      "title": "Cartel Luminoso Led Letras  Lightbox Mini Tablero Deco",
+      "seller": {
+        "id": 188316739,
+        "permalink": "http://perfil.mercadolibre.com.ar/ELECTRO+LAND",
+        "registration_date": "2015-07-21T23:31:46.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "user_info_verified",
+          "credits_priority_4",
+          "credits_profile",
+          "eshop",
+          "mshops",
+          "medium_seller",
+          "messages_as_seller",
+          "messages_as_buyer"
+        ],
+        "eshop": {
+          "nick_name": "ELECTRO LAND",
+          "eshop_rubro": null,
+          "eshop_id": 349328,
+          "eshop_locations": [],
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/188316739v358f61.png",
+          "eshop_status_id": 1,
+          "seller": 188316739,
+          "eshop_experience": 0
+        },
+        "seller_reputation": {
+          "transactions": {
+            "total": 271052,
+            "canceled": 11034,
+            "period": "historic",
+            "ratings": { "negative": 0.02, "positive": 0.96, "neutral": 0.02 },
+            "completed": 260018
+          },
+          "power_seller_status": "platinum",
+          "metrics": {
+            "claims": { "rate": 0.0161, "value": 1077, "period": "3 months" },
+            "delayed_handling_time": { "rate": 0.0016, "value": 102, "period": "3 months" },
+            "sales": { "period": "3 months", "completed": 62520 },
+            "cancellations": { "rate": 0.003, "value": 201, "period": "3 months" }
+          },
+          "level_id": "5_green"
+        }
+      },
+      "price": 399,
+      "currency_id": "ARS",
+      "available_quantity": 50,
+      "sold_quantity": 250,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2039-06-10T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-792775329-cartel-luminoso-led-letras-lightbox-mini-tablero-deco-_JM",
+      "thumbnail": "http://mla-s2-p.mlstatic.com/740912-MLA31356657438_072019-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": { "quantity": 12, "amount": 56.58, "rate": 70.17, "currency_id": "ARS" },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQkJPRTQ0OTRa",
+        "city_name": "Boedo"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": ["fulfillment", "self_service_in"],
+        "logistic_type": "fulfillment",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": { "id": "AR", "name": "Argentina" },
+        "state": { "id": "AR-C", "name": "Capital Federal" },
+        "city": { "id": "TUxBQkJPRTQ0OTRa", "name": "Boedo" },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "attribute_group_name": "Otros",
+          "source": 1572,
+          "id": "ITEM_CONDITION",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "values": [{ "id": "2230284", "name": "Nuevo", "struct": null, "source": 1572 }],
+          "attribute_group_id": "OTHERS"
+        },
+        {
+          "values": [{ "source": 1572, "id": null, "name": "LED-120", "struct": null }],
+          "id": "MODEL",
+          "name": "Modelo",
+          "value_name": "LED-120",
+          "attribute_group_name": "Otros",
+          "source": 1572,
+          "value_id": null,
+          "value_struct": null,
+          "attribute_group_id": "OTHERS"
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA413562",
+      "official_store_id": null,
+      "domain_id": "MLA-DECORATIVE_LIGHT_SIGNS",
+      "catalog_product_id": null,
+      "tags": [
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "immediate_payment",
+        "cart_eligible",
+        "shipping_guaranteed"
+      ]
+    },
+    {
+      "id": "MLA717831612",
+      "site_id": "MLA",
+      "title": "Jardin Vertical Artificial Muro Verde Panel 40x60",
+      "seller": {
+        "id": 205076801,
+        "permalink": "http://perfil.mercadolibre.com.ar/GREENDECO",
+        "registration_date": "2016-02-03T16:39:18.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "user_info_verified",
+          "eshop",
+          "credits_profile",
+          "messages_as_seller",
+          "messages_as_buyer"
+        ],
+        "eshop": {
+          "nick_name": "GREENDECO",
+          "eshop_rubro": null,
+          "eshop_id": 300170,
+          "eshop_locations": [],
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/205076801vcb7f0a.png",
+          "eshop_status_id": 1,
+          "seller": 205076801,
+          "eshop_experience": 0
+        },
+        "seller_reputation": {
+          "transactions": {
+            "total": 28466,
+            "canceled": 1097,
+            "period": "historic",
+            "ratings": { "negative": 0.01, "positive": 0.98, "neutral": 0.01 },
+            "completed": 27369
+          },
+          "power_seller_status": "platinum",
+          "metrics": {
+            "claims": { "rate": 0.0041, "value": 36, "period": "3 months" },
+            "delayed_handling_time": { "rate": 0, "value": 0, "period": "3 months" },
+            "sales": { "period": "3 months", "completed": 8232 },
+            "cancellations": { "rate": 0.0015, "value": 13, "period": "3 months" }
+          },
+          "level_id": "5_green"
+        }
+      },
+      "price": 270,
+      "currency_id": "ARS",
+      "available_quantity": 5000,
+      "sold_quantity": 5000,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2039-03-04T15:55:23.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-717831612-jardin-vertical-artificial-muro-verde-panel-40x60-_JM",
+      "thumbnail": "http://mla-s1-p.mlstatic.com/761722-MLA40388596316_012020-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": { "quantity": 12, "amount": 38.29, "rate": 70.17, "currency_id": "ARS" },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": "TUxBQlNBTjgzMjRa",
+        "city_name": "San Nicolás"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": ["self_service_in"],
+        "logistic_type": "cross_docking",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": { "id": "AR", "name": "Argentina" },
+        "state": { "id": "AR-C", "name": "Capital Federal" },
+        "city": { "id": "TUxBQlNBTjgzMjRa", "name": "San Nicolás" },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "attribute_group_name": "Otros",
+          "source": 1572,
+          "id": "ITEM_CONDITION",
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "values": [{ "source": 1572, "id": "2230284", "name": "Nuevo", "struct": null }],
+          "attribute_group_id": "OTHERS"
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA378397",
+      "official_store_id": null,
+      "domain_id": "MLA-ARTIFICIAL_PLANTS",
+      "catalog_product_id": null,
+      "tags": [
+        "good_quality_picture",
+        "good_quality_thumbnail",
+        "loyalty_discount_eligible",
+        "immediate_payment",
+        "cart_eligible",
+        "shipping_guaranteed"
+      ]
+    },
+    {
+      "id": "MLA858849269",
+      "site_id": "MLA",
+      "title": "Funda Almohadon 40x40 Cm Deco Con Cierre Diseño Pana Estampa",
+      "seller": {
+        "id": 107548146,
+        "permalink": "http://perfil.mercadolibre.com.ar/KUMI+DECO",
+        "registration_date": "2012-03-28T15:27:52.000-04:00",
+        "car_dealer": false,
+        "real_estate_agency": false,
+        "tags": [
+          "normal",
+          "user_info_verified",
+          "credits_priority_4",
+          "eshop",
+          "credits_profile",
+          "mshops",
+          "messages_as_seller",
+          "messages_as_buyer"
+        ],
+        "eshop": {
+          "nick_name": "KUMI DECO",
+          "eshop_rubro": null,
+          "eshop_id": 115763,
+          "eshop_locations": [],
+          "site_id": "MLA",
+          "eshop_logo_url": "http://resources.mlstatic.com/eshops/107548146v3d5b85.png",
+          "eshop_status_id": 1,
+          "seller": 107548146,
+          "eshop_experience": 0
+        },
+        "seller_reputation": {
+          "transactions": {
+            "total": 9810,
+            "canceled": 645,
+            "period": "historic",
+            "ratings": { "negative": 0, "positive": 0.99, "neutral": 0.01 },
+            "completed": 9165
+          },
+          "power_seller_status": "platinum",
+          "metrics": {
+            "claims": { "rate": 0, "value": 1, "period": "3 months" },
+            "delayed_handling_time": { "rate": 0, "value": 0, "period": "3 months" },
+            "sales": { "period": "3 months", "completed": 845 },
+            "cancellations": { "rate": 0, "value": 1, "period": "3 months" }
+          },
+          "level_id": "5_green"
+        }
+      },
+      "price": 450,
+      "currency_id": "ARS",
+      "available_quantity": 50,
+      "sold_quantity": 150,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2040-05-24T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://articulo.mercadolibre.com.ar/MLA-858849269-funda-almohadon-40x40-cm-deco-con-cierre-diseno-pana-estampa-_JM",
+      "thumbnail": "http://mla-s2-p.mlstatic.com/991299-MLA42076665543_062020-I.jpg",
+      "accepts_mercadopago": true,
+      "installments": { "quantity": 12, "amount": 63.81, "rate": 70.17, "currency_id": "ARS" },
+      "address": {
+        "state_id": "AR-C",
+        "state_name": "Capital Federal",
+        "city_id": null,
+        "city_name": "Villa Devoto"
+      },
+      "shipping": {
+        "free_shipping": false,
+        "mode": "me2",
+        "tags": ["fulfillment", "self_service_out"],
+        "logistic_type": "fulfillment",
+        "store_pick_up": false
+      },
+      "seller_address": {
+        "id": "",
+        "comment": "",
+        "address_line": "",
+        "zip_code": "",
+        "country": { "id": "AR", "name": "Argentina" },
+        "state": { "id": "AR-C", "name": "Capital Federal" },
+        "city": { "id": null, "name": "Villa Devoto" },
+        "latitude": "",
+        "longitude": ""
+      },
+      "attributes": [
+        {
+          "id": "BRAND",
+          "value_name": "Kumi Deco",
+          "attribute_group_id": "OTHERS",
+          "name": "Marca",
+          "value_id": "3732419",
+          "value_struct": null,
+          "values": [
+            { "id": "3732419", "name": "Kumi Deco", "struct": null, "source": 2860837171021627 }
+          ],
+          "attribute_group_name": "Otros",
+          "source": 2860837171021627
+        },
+        {
+          "attribute_group_id": "OTHERS",
+          "name": "Condición del ítem",
+          "value_id": "2230284",
+          "value_name": "Nuevo",
+          "value_struct": null,
+          "values": [
+            { "id": "2230284", "name": "Nuevo", "struct": null, "source": 2860837171021627 }
+          ],
+          "attribute_group_name": "Otros",
+          "source": 2860837171021627,
+          "id": "ITEM_CONDITION"
+        },
+        {
+          "id": "MODEL",
+          "value_id": null,
+          "values": [
+            {
+              "source": 2860837171021627,
+              "id": null,
+              "name": "DECO 40X40CM PANA ESTAMPADA",
+              "struct": null
+            }
+          ],
+          "attribute_group_id": "OTHERS",
+          "name": "Modelo",
+          "value_name": "DECO 40X40CM PANA ESTAMPADA",
+          "value_struct": null,
+          "attribute_group_name": "Otros",
+          "source": 2860837171021627
+        }
+      ],
+      "original_price": null,
+      "category_id": "MLA401899",
+      "official_store_id": null,
+      "domain_id": "MLA-CUSHION_AND_PILLOW_COVERS",
+      "catalog_product_id": null,
+      "tags": [
+        "good_quality_thumbnail",
+        "loyalty_discount_eligible",
+        "brand_verified",
+        "good_quality_picture",
+        "immediate_payment",
+        "cart_eligible",
+        "shipping_guaranteed"
+      ]
+    }
+  ],
+  "secondary_results": [],
+  "related_results": [],
+  "sort": { "id": "relevance", "name": "Más relevantes" },
+  "available_sorts": [
+    { "id": "price_asc", "name": "Menor precio" },
+    { "id": "price_desc", "name": "Mayor precio" }
+  ],
+  "filters": [
+    {
+      "id": "category",
+      "name": "Categorías",
+      "type": "text",
+      "values": [
+        {
+          "id": "MLA1574",
+          "name": "Hogar, Muebles y Jardín",
+          "path_from_root": [{ "id": "MLA1574", "name": "Hogar, Muebles y Jardín" }]
+        }
+      ]
+    }
+  ],
+  "available_filters": [
+    {
+      "id": "category",
+      "name": "Categorías",
+      "type": "text",
+      "values": [
+        { "id": "MLA1631", "name": "Adornos y Decoración del Hogar", "results": 19096 },
+        { "id": "MLA436246", "name": "Textiles de Hogar y Decoración", "results": 4038 },
+        { "id": "MLA1582", "name": "Iluminación para el Hogar", "results": 4324 },
+        { "id": "MLA436380", "name": "Muebles para el Hogar", "results": 7131 },
+        { "id": "MLA1592", "name": "Bazar y Cocina", "results": 5586 },
+        { "id": "MLA1621", "name": "Jardines y Exteriores", "results": 2808 },
+        { "id": "MLA436414", "name": "Organización para el Hogar", "results": 1352 },
+        { "id": "MLA1608", "name": "Colchones y Sommiers", "results": 856 },
+        { "id": "MLA436140", "name": "Cortinas y Accesorios", "results": 856 },
+        { "id": "MLA1613", "name": "Baños", "results": 819 },
+        { "id": "MLA436069", "name": "Cuidado del Hogar y Lavandería", "results": 118 },
+        { "id": "MLA4624", "name": "Seguridad para el Hogar", "results": 27 },
+        { "id": "MLA1902", "name": "Otros", "results": 198 }
+      ]
+    },
+    {
+      "id": "official_store",
+      "name": "Tiendas oficiales",
+      "type": "text",
+      "values": [
+        { "id": "all", "name": "Todas las tiendas oficiales", "results": 154 },
+        { "id": "1829", "name": "Begonia", "results": 9 },
+        { "id": "1808", "name": "Leder Hd", "results": 118 }
+      ]
+    },
+    {
+      "id": "discount",
+      "name": "Descuentos",
+      "type": "range",
+      "values": [
+        { "id": "10-100", "name": "Desde 10% off", "results": 770 },
+        { "id": "20-100", "name": "Desde 20% off", "results": 562 },
+        { "id": "30-100", "name": "Desde 30% off", "results": 46 },
+        { "id": "40-100", "name": "Desde 40% off", "results": 9 }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "Ubicación",
+      "type": "text",
+      "values": [
+        { "id": "TUxBUENBUGw3M2E1", "name": "Capital Federal", "results": 24247 },
+        { "id": "TUxBUEdSQWU4ZDkz", "name": "Bs.As. G.B.A. Norte", "results": 5557 },
+        { "id": "TUxBUEdSQXJlMDNm", "name": "Bs.As. G.B.A. Sur", "results": 4532 },
+        { "id": "TUxBUEdSQWVmNTVm", "name": "Bs.As. G.B.A. Oeste", "results": 3725 },
+        { "id": "TUxBUENPUmFkZGIw", "name": "Córdoba", "results": 1152 },
+        { "id": "TUxBUFpPTmFpbnRl", "name": "Buenos Aires Interior", "results": 990 },
+        { "id": "TUxBUFNBTmU5Nzk2", "name": "Santa Fe", "results": 873 },
+        { "id": "TUxBUE1FTmE5OWQ4", "name": "Mendoza", "results": 568 },
+        { "id": "TUxBUENPU2ExMmFkMw", "name": "Bs.As. Costa Atlántica", "results": 189 },
+        { "id": "TUxBUENPUnM5MjI0", "name": "Corrientes", "results": 126 },
+        { "id": "TUxBUFLNT29iZmZm", "name": "Río Negro", "results": 99 },
+        { "id": "TUxBUFNBTGFjMTJi", "name": "Salta", "results": 99 },
+        { "id": "TUxBUFNBTnM0ZTcz", "name": "San Luis", "results": 99 },
+        { "id": "TUxBUENIQW8xMTNhOA", "name": "Chaco", "results": 36 },
+        { "id": "TUxBUE5FVW4xMzMzNQ", "name": "Neuquén", "results": 27 },
+        { "id": "TUxBUEVOVHMzNTdm", "name": "Entre Ríos", "results": 27 },
+        { "id": "TUxBUFNBTm9lOTlk", "name": "Santiago del Estero", "results": 18 },
+        { "id": "TUxBUE1JU3MzNjIx", "name": "Misiones", "results": 9 },
+        { "id": "TUxBUENBVGFiY2Fm", "name": "Catamarca", "results": 9 },
+        { "id": "TUxBUExBWmE1OWMy", "name": "La Pampa", "results": 9 },
+        { "id": "TUxBUFNBTm5lYjU4", "name": "San Juan", "results": 9 },
+        { "id": "TUxBUFNBTno3ZmY5", "name": "Santa Cruz", "results": 9 },
+        { "id": "TUxBUFRVQ244NmM3", "name": "Tucumán", "results": 9 }
+      ]
+    },
+    {
+      "id": "price",
+      "name": "Precio",
+      "type": "range",
+      "values": [
+        { "id": "*-900.0", "name": "Hasta $ 900", "results": 13881 },
+        { "id": "900.0-3000.0", "name": "$900 a $3.000", "results": 14336 },
+        { "id": "3000.0-*", "name": "Más de $3.000", "results": 15128 }
+      ]
+    },
+    {
+      "id": "accepts_mercadopago",
+      "name": "Filtro por MercadoPago",
+      "type": "boolean",
+      "values": [{ "id": "yes", "name": "Con MercadoPago", "results": 43345 }]
+    },
+    {
+      "id": "installments",
+      "name": "Pago",
+      "type": "text",
+      "values": [
+        { "id": "yes", "name": "En cuotas", "results": 43345 },
+        { "id": "no_interest", "name": "Sin interés", "results": 6366 }
+      ]
+    },
+    {
+      "id": "shipping",
+      "name": "Tipo de entrega",
+      "type": "text",
+      "values": [
+        { "id": "mercadoenvios", "name": "Con envío", "results": 33139 },
+        { "id": "fulfillment", "name": "Full", "results": 153 }
+      ]
+    },
+    {
+      "id": "power_seller",
+      "name": "Filtro por calidad de vendedores",
+      "type": "boolean",
+      "values": [{ "id": "yes", "name": "Mejores vendedores", "results": 19008 }]
+    },
+    {
+      "id": "since",
+      "name": "Filtro por fecha de comienzo",
+      "type": "text",
+      "values": [{ "id": "today", "name": "Publicados hoy", "results": 216 }]
+    },
+    {
+      "id": "until",
+      "name": "Filtro por fecha de finalización",
+      "type": "text",
+      "values": [{ "id": "today", "name": "Finalizan hoy", "results": 36 }]
+    },
+    {
+      "id": "has_video",
+      "name": "Filtro por publicaciones con video",
+      "type": "boolean",
+      "values": [{ "id": "yes", "name": "Publicaciones con video", "results": 3695 }]
+    },
+    {
+      "id": "has_pictures",
+      "name": "Filtro por publicaciones con imágenes",
+      "type": "boolean",
+      "values": [{ "id": "yes", "name": "Con fotos", "results": 43345 }]
+    },
+    {
+      "id": "shipping_cost",
+      "name": "Costo de envío",
+      "type": "text",
+      "values": [{ "id": "free", "name": "Gratis", "results": 9667 }]
+    },
+    {
+      "id": "shipping_quarantine",
+      "name": "Tipo de entrega",
+      "type": "text",
+      "values": [{ "id": "guaranteed_delivery", "name": "Envío con normalidad", "results": 22968 }]
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición",
+      "type": "STRING",
+      "values": [
+        { "id": "2230284", "name": "Nuevo", "results": 41778 },
+        { "id": "2230581", "name": "Usado", "results": 2277 },
+        { "id": "2230582", "name": "Reacondicionado", "results": 27 }
+      ]
+    }
+  ]
+}
