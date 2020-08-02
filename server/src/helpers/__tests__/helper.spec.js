@@ -23,7 +23,7 @@ describe('API Request TEST:', () => {
   it('passes createResponse', async () => {
     const categories = response.filters.find((filter) => filter.id === 'category');
     const items = response.results.map((item) => createObjectItems(item));
-    const objectRes = createResponse(items, categories);
+    const objectRes = createResponse({ data: items, categories });
     expect(objectRes).toEqual(resultcreateResponse);
   });
 });

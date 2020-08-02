@@ -5,6 +5,7 @@ import express from 'express';
 import error from './error';
 
 import itemsRouter from './resources/items/items.router';
+import categoriesRouter from './resources/categories/categories.router';
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
 app.use('/api/items', itemsRouter);
+app.use('/api/categories', categoriesRouter);
 
 app.get('*', (_req, res) => res.send(error));
 

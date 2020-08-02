@@ -8,7 +8,7 @@ export const getItems = async (req, res) => {
     );
     const categories = response.data.filters.find((filter) => filter.id === 'category');
     const items = response.data.results.map((item) => createObjectItems(item));
-    res.json(createResponse(items, categories));
+    res.json(createResponse({ data: items, categories }));
   } catch (error) {
     if (error.response) {
       res.status(error.response.status).json({ error: error.response.data.message });
@@ -24,7 +24,7 @@ export const getOne = async (req, res) => {
       ...itemResponse.data,
       description: description.data.plain_text,
     });
-    res.json(createResponse(item));
+    res.json(createResponse({ data: item, single: true }));
   } catch (error) {
     if (error.response) {
       res.status(error.response.status).json({ error: error.response.data.message });

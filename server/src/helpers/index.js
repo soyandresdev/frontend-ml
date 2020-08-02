@@ -26,11 +26,12 @@ export const createObjectItem = ({
   title,
   currency_id,
   price,
-  thumbnail,
+  pictures,
   condition,
   shipping,
   sold_quantity,
   description,
+  category_id,
 }) => ({
   id,
   title,
@@ -39,22 +40,26 @@ export const createObjectItem = ({
     amount: price,
     decimals: price,
   },
-  picture: thumbnail,
+  picture: pictures[0].url,
   condition,
   free_shipping: shipping.free_shipping,
   sold_quantity,
   description,
+  category_id,
 });
 
-const createResponse = (items, categories) => {
-  const response = {
+const createResponse = ({ data, categories, single = false }) => {
+  let response = {
     author: {
       name: 'Andres',
       lastname: 'Hernandez Lozano',
     },
-    items,
+    items: data,
   };
-
+  if (single) {
+    const { items, ...rest } = response;
+    response = { ...rest, item: data };
+  }
   if (categories) {
     return {
       ...response,

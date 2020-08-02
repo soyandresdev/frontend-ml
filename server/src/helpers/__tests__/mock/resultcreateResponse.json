@@ -7,7 +7,8 @@
       "price": { "amount": 2149, "decimals": 2149, "currency": "ARS" },
       "picture": "http://mla-s2-p.mlstatic.com/701878-MLA31486701485_072019-I.jpg",
       "condition": "new",
-      "free_shipping": false
+      "free_shipping": false,
+      "address": "Buenos Aires"
     },
     {
       "id": "MLA792775329",
@@ -15,7 +16,8 @@
       "price": { "amount": 399, "decimals": 399, "currency": "ARS" },
       "picture": "http://mla-s2-p.mlstatic.com/740912-MLA31356657438_072019-I.jpg",
       "condition": "new",
-      "free_shipping": false
+      "free_shipping": false,
+      "address": "Capital Federal"
     },
     {
       "id": "MLA717831612",
@@ -23,7 +25,8 @@
       "price": { "amount": 270, "decimals": 270, "currency": "ARS" },
       "picture": "http://mla-s1-p.mlstatic.com/761722-MLA40388596316_012020-I.jpg",
       "condition": "new",
-      "free_shipping": false
+      "free_shipping": false,
+      "address": "Capital Federal"
     },
     {
       "id": "MLA858849269",
@@ -31,7 +34,8 @@
       "price": { "amount": 450, "decimals": 450, "currency": "ARS" },
       "picture": "http://mla-s2-p.mlstatic.com/991299-MLA42076665543_062020-I.jpg",
       "condition": "new",
-      "free_shipping": false
+      "free_shipping": false,
+      "address": "Capital Federal"
     }
   ],
   "categories": ["Hogar, Muebles y Jardín"]
