@@ -1,14 +1,14 @@
 import React from 'react';
-import { useProductsStore } from '@Hooks/store/productsStoreContext';
+import PropTypes from 'prop-types';
+
 import { CategoryBox, List } from './Category.module.scss';
 
-export default function Category() {
-  const { data } = useProductsStore();
+export default function Category({ categories }) {
   return (
     <div className={CategoryBox}>
-      {data?.categories && (
+      {categories && (
         <ul className={List}>
-          {data?.categories.map((category) => (
+          {categories.map((category) => (
             <li key={category}>{category}</li>
           ))}
         </ul>
@@ -16,3 +16,7 @@ export default function Category() {
     </div>
   );
 }
+
+Category.propTypes = {
+  categories: PropTypes.instanceOf(PropTypes.array).isRequired,
+};

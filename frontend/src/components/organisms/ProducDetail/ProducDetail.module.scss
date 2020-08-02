@@ -1,0 +1,55 @@
+@import 'styles/_colors';
+@import 'styles/_variables';
+
+.ProducDetailBox {
+  display: grid;
+  grid-template-columns: 680px 1fr;
+  column-gap: $space-small;
+  background-color: white;
+  padding: $space-big;
+}
+
+.Image {
+  width: 680px;
+  height: 680px;
+  margin: 0;
+  img {
+    border-radius: 4px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.InfoBox {
+}
+
+.SoldQuantity {
+  font-size: $fontSmall;
+  padding-bottom: $space-small;
+  font-weight: 300;
+  margin: 0;
+}
+
+.Title {
+  font-size: $fontBig;
+  margin: 0;
+  font-weight: bold;
+}
+
+.Price {
+  font-size: $fontBigM;
+  margin: $space-big 0px;
+  font-weight: 400;
+}
+
+.Description {
+  font-size: $fontNormal;
+  word-wrap: break-word;
+  margin: $space-big 0px;
+}
+.DescriptionTitle {
+  font-size: $fontBigNormal;
+  word-wrap: break-word;
+  margin: 0px;
+}

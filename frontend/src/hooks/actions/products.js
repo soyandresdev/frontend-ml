@@ -1,10 +1,10 @@
 import axios from 'axios';
 import { useProductsDispatch } from '@Hooks/store/productsStoreContext';
 
-export default function useProductAction({ search }) {
+export default function useProductAction() {
   const dispatch = useProductsDispatch();
 
-  async function getProducts() {
+  async function getProducts(search) {
     dispatch({ type: 'LOADING', loading: true });
     const { data } = await axios.get(
       `${process.env.REACT_APP_API}/api/items${search ? `?q=${search}` : ''}`
@@ -13,5 +13,15 @@ export default function useProductAction({ search }) {
     dispatch({ type: 'LOADING', loading: false });
   }
 
-  return { getProducts };
+  async function getProduct(id) {
+    dispatch({ type: 'LOADING', loading: true });
+    const { data } = await axios.get(`${process.env.REACT_APP_API}/api/items/${id}`);
+    const { data: categories } = await axios.get(
+      `${process.env.REACT_APP_API}/api/categories/${data?.item?.category_id}`
+    );
+    dispatch({ type: 'LOAD_PRODUCT', data: { ...data?.item, categories } });
+    dispatch({ type: 'LOADING', loading: false });
+  }
+
+  return { getProducts, getProduct };
 }

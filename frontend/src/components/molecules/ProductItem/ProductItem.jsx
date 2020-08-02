@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import ResponsiveImage from '@UI/Atoms/ResposiveImage';
+import { formatPrice } from '@Utils/number';
 import shippingSmall from '@Static/images/ic_shipping.png';
 import shippingLg from '@Static/images/ic_shipping@2x.png';
 import {
@@ -17,14 +18,6 @@ import {
 } from './ProductItem.module.scss';
 
 function ProductItem({ id, title, picture, price, free_shipping, address }) {
-  const formatPrice = (amount) => {
-    return new Intl.NumberFormat('es-AR', {
-      style: 'currency',
-      currency: 'ARS',
-      minimumFractionDigits: 0,
-    }).format(amount);
-  };
-
   return (
     <Link className={LinkStyles} to={`/items/${id}`}>
       <div className={ProductStyles}>

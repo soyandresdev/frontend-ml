@@ -63,6 +63,7 @@ module.exports = {
           ['@UI/Templates', './src/components/templates'],
           ['@UI/Pages', './src/pages'],
           ['@Hooks', './src/hooks'],
+          ['@Utils', './src/utils'],
           ['@Static', './src/static'],
           ['@Styles', './src/styles'],
         ],

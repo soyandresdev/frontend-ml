@@ -2,6 +2,7 @@ import makeStore from '../makeStore';
 
 const initalState = {
   data: {},
+  product: {},
   loading: false,
 };
 
@@ -11,6 +12,11 @@ const reducer = (state, action) => {
       return {
         ...state,
         data: { ...action.data },
+      };
+    case 'LOAD_PRODUCT':
+      return {
+        ...state,
+        product: { ...action.data },
       };
     case 'LOADING':
       return {

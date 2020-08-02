@@ -1,21 +1,19 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import ProductItem from '@UI/Molecules/ProductItem';
-import Loading from '@UI/Molecules/ProductItem/Loading';
+import ProductItem, { Loading } from '@UI/Molecules/ProductItem';
 import { useProductsStore } from '@Hooks/store/productsStoreContext';
 import useProductAction from '@Hooks/actions/products';
 import { ProducListBox, EmptyState } from './ProducList.module.scss';
 
 function ProductList({ search }) {
   const { data, loading } = useProductsStore();
-  const { getProducts } = useProductAction({ search });
+  const { getProducts } = useProductAction();
 
   useEffect(() => {
-    getProducts();
-  }, []);
-
-  useEffect(() => {
-    getProducts();
+    function fetchProducts() {
+      getProducts(search);
+    }
+    fetchProducts();
   }, [search]);
 
   if (loading) {
@@ -36,7 +34,7 @@ function ProductList({ search }) {
       ))}
       {data?.items?.length === 0 && (
         <div className={EmptyState}>
-          <h2>No encontramos datos son la busqueda &apos;{search}&apos;</h2>
+          <h2>No encontramos datos con la busqueda &apos;{search}&apos;</h2>
         </div>
       )}
     </div>

@@ -8,6 +8,8 @@
 
       "@Hooks": ["hooks"],
       "@Hooks/*": ["hooks/*"],
+      "@Utils": ["utils"],
+      "@Utils/*": ["utils/*"],
 
       "@UI/Atoms": ["components/atoms"],
       "@UI/Atoms/*": ["components/atoms/*"],
