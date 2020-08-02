@@ -6,6 +6,7 @@ export const createObjectItems = ({
   thumbnail,
   condition,
   shipping,
+  address,
 }) => ({
   id,
   title,
@@ -17,6 +18,7 @@ export const createObjectItems = ({
   picture: thumbnail,
   condition,
   free_shipping: shipping.free_shipping,
+  address: address.state_name,
 });
 
 export const createObjectItem = ({
