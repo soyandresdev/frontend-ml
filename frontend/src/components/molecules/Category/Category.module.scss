@@ -1,0 +1,31 @@
+@import 'styles/_colors';
+@import 'styles/_variables';
+
+.CategoryBox {
+  padding: $space-small 0px;
+}
+
+.List {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  li {
+    margin: 0 0.2rem;
+    font-size: 0.87rem;
+    color: $gray300;
+
+    &::after {
+      content: ' > ';
+    }
+
+    &:last-child {
+      font-weight: bold;
+
+      &::after {
+        content: '';
+      }
+    }
+  }
+}

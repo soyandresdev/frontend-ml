@@ -1,0 +1,71 @@
+@import 'styles/_colors';
+@import 'styles/_variables';
+
+.LinkStyles {
+  text-decoration: none;
+  color: $gray400;
+  &:active,
+  &:visited {
+    color: $gray400;
+    text-decoration: none;
+  }
+}
+
+.ProductStyles {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  cursor: pointer;
+  padding: $space-small;
+  border-bottom: 1px solid #ccc;
+}
+
+.Box {
+  display: flex;
+}
+
+.Picture {
+  max-width: 180px;
+  max-height: 180px;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.Resume {
+  margin-left: $space-small;
+  width: 100%;
+}
+
+.BoxPrice {
+  display: flex;
+  align-items: center;
+  margin-bottom: $space-big;
+  margin-top: $space-small;
+  img {
+    width: 20px;
+    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 1rem;
+  }
+}
+
+.Price {
+  font-weight: 400;
+  font-size: $fontBig;
+  margin: 0;
+}
+
+.Name {
+  font-weight: 400;
+  font-size: $fontMedium;
+  width: 50%;
+}
+
+.Address {
+  display: block;
+  padding-top: $space-big;
+  min-width: 7.5rem;
+  padding-right: 20px;
+  font-size: 0.75rem;
+}

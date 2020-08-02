@@ -1,0 +1,8 @@
+@import 'styles/_colors';
+@import 'styles/_grid';
+
+.BasicRouterStyles {
+  background-color: $gray100;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}

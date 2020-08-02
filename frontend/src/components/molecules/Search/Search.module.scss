@@ -1,0 +1,14 @@
+@import 'styles/_colors';
+.SearchBox {
+  display: flex;
+}
+.SearchButton {
+  background: $gray100;
+  border: none;
+  color: $gray300;
+  width: 45px;
+  cursor: pointer;
+  background-image: url('../../../static/images/ic_Search.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

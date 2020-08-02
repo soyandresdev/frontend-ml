@@ -1,0 +1,36 @@
+// Breakpoints
+$fourk: 2560;
+$uhd: 1440;
+$mhd: 1366;
+$hd: 1280;
+$lg: 1024;
+$md: 768;
+$sm: 480;
+$xs: 320;
+
+$map-grid-props: (
+  '': 0,
+  '_xs': $xs,
+  '_sm': $sm,
+  '_md': $md,
+  '_lg': $lg,
+  '_hd': $hd,
+  '_mhd': $mhd,
+  '_uhd': $uhd,
+  '_fourk': $fourk,
+);
+
+$grid_columns: 12;
+$gutters: 150;
+$gutters-lg: 20;
+$space: 8;
+
+$space-small: 16px;
+$space-big: 32px;
+
+$fontNormal: 16px;
+
+$fontXSmall: 12px / $fontNormal * 1em;
+$fontSmall: 14px / $fontNormal * 1em;
+$fontMedium: 18px / $fontNormal * 1em;
+$fontBig: 24px / $fontNormal * 1em;

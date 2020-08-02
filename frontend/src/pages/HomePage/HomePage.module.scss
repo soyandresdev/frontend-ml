@@ -1,0 +1,22 @@
+@import 'styles/_colors';
+@import 'styles/_variables';
+
+.CarouselBox {
+  height: 300px;
+  margin-top: $space-small;
+  :global(.BrainhubCarousel) {
+    position: relative;
+  }
+  :global(.BrainhubCarousel__arrows) {
+    background-color: $blue;
+  }
+  :global(.BrainhubCarousel__arrowRight) {
+    right: 0;
+  }
+}
+
+.Imagen {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
