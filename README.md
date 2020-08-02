@@ -1,6 +1,6 @@
 # Test Frontend para ML
 
-Cree dos carpetas una para el backend (server) y otra para el frontend (frontend), para trabajar con mayor comodidad y mejor escalibilidad para el futuro.
+Cree dos carpetas una para el backend (backend) y otra para el frontend (frontend), para trabajar con mayor comodidad y mejor escalibilidad para el futuro.
 
 La prueba consistia en desarrollar una applicacion web con tres componentes principales: Un header con un formulario de busqueda, una pagina donde listar productos dependiendo del valor que ahi en el buscardo del header, y una pagina del detalle del producto.
 
