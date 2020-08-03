@@ -1,5 +1,6 @@
 @import 'styles/_colors';
 @import 'styles/_variables';
+@import 'styles/_mixin';
 
 .HeaderBox {
   background-color: $yellow;
@@ -8,6 +9,9 @@
   align-items: center;
   padding: 0 $gutters * 1px;
   height: 60px;
+  @include create-mediaquery($sm, 'max') {
+    padding: 0 $gutters-lg * 1px;
+  }
 }
 
 .Nav {

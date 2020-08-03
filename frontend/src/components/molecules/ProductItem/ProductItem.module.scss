@@ -1,5 +1,6 @@
 @import 'styles/_colors';
 @import 'styles/_variables';
+@import 'styles/_mixin';
 
 .LinkStyles {
   text-decoration: none;
@@ -17,15 +18,31 @@
   cursor: pointer;
   padding: $space-small;
   border-bottom: 1px solid #ccc;
+  @include create-mediaquery($sm, 'max') {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+  }
 }
 
 .Box {
   display: flex;
+  @include create-mediaquery($sm, 'max') {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
 }
 
 .Picture {
   max-width: 180px;
   max-height: 180px;
+  min-width: 180px;
+  min-height: 180px;
   width: 180px;
   height: 180px;
   object-fit: contain;

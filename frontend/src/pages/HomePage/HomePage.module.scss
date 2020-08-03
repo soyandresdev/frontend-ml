@@ -1,5 +1,6 @@
 @import 'styles/_colors';
 @import 'styles/_variables';
+@import 'styles/_mixin';
 
 .CarouselBox {
   height: 300px;
@@ -12,6 +13,9 @@
   }
   :global(.BrainhubCarousel__arrowRight) {
     right: 0;
+  }
+  @include create-mediaquery($sm, 'max') {
+    height: auto;
   }
 }
 

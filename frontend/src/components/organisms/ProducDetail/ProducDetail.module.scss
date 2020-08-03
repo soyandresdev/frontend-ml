@@ -1,5 +1,6 @@
 @import 'styles/_colors';
 @import 'styles/_variables';
+@import 'styles/_mixin';
 
 .ProducDetailBox {
   display: grid;
@@ -7,6 +8,14 @@
   column-gap: $space-small;
   background-color: white;
   padding: $space-big;
+  @include create-mediaquery($lg, 'max') {
+    display: flex;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
 }
 
 .Image {
@@ -18,6 +27,10 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+  @include create-mediaquery($sm, 'max') {
+    width: 250px;
+    height: 250px;
   }
 }
 

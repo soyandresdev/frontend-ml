@@ -1,12 +1,6 @@
 @charset 'utf-8'
 @import 'styles/_variables';
-
-@mixin create-mediaquery($breakpoint, $min-or-max)
-  @if $breakpoint == 0
-    @content
-  @else
-    @media screen and (#{$min-or-max}-width: $breakpoint * 1px)
-      @content
+@import 'styles/_mixin';
 
 @mixin create-col-classes($modifier, $grid_columns, $breakpoint)
   @include create-mediaquery($breakpoint, 'min')
