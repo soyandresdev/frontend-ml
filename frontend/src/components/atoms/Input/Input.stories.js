@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs/react';
 
 import { moduleName } from '../-info';
-import Input from './';
+import Input from '.';
 
 export const actions = {
   onChange: action('onChange'),

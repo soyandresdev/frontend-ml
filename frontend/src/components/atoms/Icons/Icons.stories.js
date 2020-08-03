@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { select, text } from '@storybook/addon-knobs/react';
 
 import { moduleName } from '../-info';
-import Icons from './';
+import Icons from '.';
 
 storiesOf(`${moduleName}/Icons`, module).add('Default', () => (
   <Icons

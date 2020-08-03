@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs/react';
 
 import { moduleName } from '../-info';
-import ResposiveImage from './';
+import ResposiveImage from '.';
 
 const small =
   'https://accelerated.atoms.crystallize.digital/snowball/images/PalmaSpeedJusterteBilder-15/_resized_300.jpg';

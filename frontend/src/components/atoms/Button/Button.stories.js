@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs/react';
 
 import { moduleName } from '../-info';
-import Button from './';
+import Button from '.';
 
 export const actions = {
   onClick: action('onClick'),
